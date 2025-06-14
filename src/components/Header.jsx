@@ -32,7 +32,10 @@ export default function Header() {
             >
               <i className="fas fa-bars text-xl"></i> {/* Hamburger icon */}
             </div>
-            <Link to="/cart" className="text-orange-800 hover:text-gray-700">
+            <Link
+              to="/services/confirm-checkout"
+              className="text-orange-800 hover:text-gray-700"
+            >
               <i className="fas fa-shopping-cart text-xl"></i> {/* Cart icon */}
               {/* Cart Count Badge */}
               {cartCount > 0 && (

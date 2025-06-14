@@ -33,7 +33,7 @@ const ConfirmCheckout = () => {
         {/* Checkout Box */}
         <div className="border border-black p-4 rounded-lg">
           {/* Headline Row */}
-          <div className="hidden sm:flex text-sm justify-between sm:justify-evenly font-semibold sm:text-lg pb-2 sm:ml-40">
+          <div className="sm:flex text-sm justify-between sm:justify-evenly font-normal sm:font-semibold sm:text-lg pb-2 sm:ml-40">
             <span>Product</span>
             <span>Price</span>
             <span>Quantity</span>

@@ -33,7 +33,7 @@ const ConfirmCheckout = () => {
         {/* Checkout Box */}
         <div className="border border-black p-4 rounded-lg">
           {/* Headline Row */}
-          <div className="sm:flex text-sm justify-evenly font-normal sm:font-semibold sm:text-lg pb-2 sm:ml-40 ml-10 gap-2 sm:gap-0">
+          <div className="sm:flex text-sm justify-evenly font-normal sm:font-semibold sm:text-lg pb-2 sm:ml-40 ml-10 gap-x-4 sm:gap-x-0">
             <span>Product</span>
             <span>Price</span>
             <span>Quantity</span>
@@ -82,18 +82,18 @@ const ConfirmCheckout = () => {
         </div>
 
         {/* Coupon & Update Cart Section */}
-        <div className="flex justify-between items-center border-b border-black py-4 mt-4">
-          <div className="flex space-x-1">
+        <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center border-b border-black py-4 mt-4 gap-3">
+          <div className="flex flex-col sm:flex-row gap-2">
             <input
               type="text"
               placeholder="Coupon Code"
-              className="border px-3 py-2 w-40"
+              className="border px-3 py-2 sm:w-40 w-full"
             />
             <button className="bg-blue-600 text-white px-4 py-2 rounded">
               Apply Coupon
             </button>
           </div>
-          <button className="bg-gray-600 text-white px-4 py-2 rounded">
+          <button className="bg-gray-600 text-white px-4 py-2 rounded w-full sm:w-auto">
             Update Cart
           </button>
         </div>
